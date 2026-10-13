@@ -1,0 +1,14 @@
+{
+  "name": "neyrohacker",
+  "owner": { "name": "Нейрохакер — журнал NeyroHub", "url": "https://neyrohacker.com" },
+  "description": "Скиллы журнала «Нейрохакер»: оркестратор хаков — методы практиков, промпты и скиллы под задачу.",
+  "plugins": [
+    {
+      "name": "neyrohacker-skills",
+      "source": "./",
+      "description": "Агент «Нейрохакер»: по задаче подбирает из журнала методы нейрохакеров с NeyroSummit, готовые промпты с командами и проверенные скиллы — со ссылками на разборы.",
+      "category": "productivity",
+      "keywords": ["neyrohacker", "prompts", "skills", "agents", "russian"]
+    }
+  ]
+}

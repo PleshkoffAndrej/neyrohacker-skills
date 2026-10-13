@@ -1,0 +1,11 @@
+{
+  "name": "neyrohacker-skills",
+  "version": "0.1.0",
+  "description": "Агент «Нейрохакер» — оркестратор хаков журнала neyrohacker.com: методы практиков, промпты и скиллы под задачу.",
+  "author": { "name": "Андрей Плешков, журнал «Нейрохакер»", "url": "https://neyrohacker.com" },
+  "homepage": "https://neyrohacker.com/prompty/skilly/neyrohacker/",
+  "repository": "https://github.com/PleshkoffAndrej/neyrohacker-skills",
+  "license": "CC-BY-4.0",
+  "keywords": ["neyrohacker", "prompts", "skills", "agents"],
+  "skills": ["./skills/neyrohacker"]
+}
