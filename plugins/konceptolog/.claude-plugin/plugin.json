@@ -1,0 +1,11 @@
+{
+  "name": "konceptolog",
+  "version": "1.0.0",
+  "description": "Концептолог — мозговой штурм с критическим разбором: варианты идеи, пять осей, усиления и концепт-файл с отвергнутым и причинами.",
+  "author": { "name": "Андрей Плешков, журнал «Нейрохакер»", "url": "https://neyrohacker.com" },
+  "homepage": "https://neyrohacker.com/prompty/skilly/konceptolog/",
+  "repository": "https://github.com/PleshkoffAndrej/neyrohacker-skills",
+  "license": "CC-BY-4.0",
+  "keywords": ["brainstorm", "ideas", "critique", "russian"],
+  "skills": ["./skills/konceptolog"]
+}

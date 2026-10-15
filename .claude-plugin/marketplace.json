@@ -1,14 +1,47 @@
 {
   "name": "neyrohacker",
-  "owner": { "name": "Нейрохакер — журнал NeyroHub", "url": "https://neyrohacker.com" },
-  "description": "Скиллы журнала «Нейрохакер»: оркестратор хаков — методы практиков, промпты и скиллы под задачу.",
+  "owner": {
+    "name": "Нейрохакер — журнал NeyroHub",
+    "url": "https://neyrohacker.com"
+  },
+  "description": "Скиллы журнала «Нейрохакер»: оркестратор хаков, Идеолог (идеи для контента) и Концептолог (штурм идеи).",
   "plugins": [
     {
       "name": "neyrohacker-skills",
       "source": "./",
       "description": "Агент «Нейрохакер»: по задаче подбирает из журнала методы нейрохакеров с NeyroSummit, готовые промпты с командами и проверенные скиллы — со ссылками на разборы.",
       "category": "productivity",
-      "keywords": ["neyrohacker", "prompts", "skills", "agents", "russian"]
+      "keywords": [
+        "neyrohacker",
+        "prompts",
+        "skills",
+        "agents",
+        "russian"
+      ]
+    },
+    {
+      "name": "ideolog",
+      "source": "./plugins/ideolog",
+      "description": "Идеолог: собирает идеи для контента из выбранных тобой Telegram-каналов и сайтов, ставит оценки и превращает идею в ТЗ с сырьём и ссылками. Сам контент не пишет.",
+      "category": "productivity",
+      "keywords": [
+        "content",
+        "ideas",
+        "telegram",
+        "russian"
+      ]
+    },
+    {
+      "name": "konceptolog",
+      "source": "./plugins/konceptolog",
+      "description": "Концептолог: разворачивает сырую идею в варианты, разбирает по пяти осям, предлагает усиления и собирает концепт-файл с отвергнутым и причинами.",
+      "category": "productivity",
+      "keywords": [
+        "brainstorm",
+        "ideas",
+        "critique",
+        "russian"
+      ]
     }
   ]
 }

@@ -1,0 +1,11 @@
+{
+  "name": "ideolog",
+  "version": "1.0.0",
+  "description": "Идеолог — разведка инфополя для контент-мейкера: идеи из твоих источников со скорингом и ТЗ по выбранной идее. Сам контент не пишет.",
+  "author": { "name": "Андрей Плешков, журнал «Нейрохакер»", "url": "https://neyrohacker.com" },
+  "homepage": "https://neyrohacker.com/prompty/skilly/ideolog/",
+  "repository": "https://github.com/PleshkoffAndrej/neyrohacker-skills",
+  "license": "CC-BY-4.0",
+  "keywords": ["content", "ideas", "telegram", "russian"],
+  "skills": ["./skills/ideolog"]
+}

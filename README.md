@@ -40,6 +40,48 @@ npx skills add https://github.com/PleshkoffAndrej/neyrohacker-skills --skill ney
 
 Агенту нужен доступ в интернет — он скачивает индекс журнала.
 
+## Идеолог — идеи для контента из твоих источников
+
+Скилл `ideolog` читает выбранные тобой Telegram-каналы (через веб-ленту `t.me/s/…`), сайты и веб-поиск, вытаскивает неочевидные идеи с оценкой по пяти осям, следит за повторами и по выбранной идее собирает ТЗ («шифровку») с цитатами, ссылками, хуками и типом контента. Сам контент не пишет. Ключи и API не нужны.
+
+```
+Идеолог, настрой нишу «нейросети»
+собери идеи за неделю
+сделай ТЗ по идее №2
+```
+
+## Концептолог — штурм идеи
+
+Скилл `konceptolog` разворачивает сырую идею в 3–5 вариантов, разбирает выбранный по пяти осям (результат, адресат, отличие, слабое звено, цена), к каждому слабому месту даёт усиление и собирает концепт-файл — с отвергнутыми вариантами и причинами.
+
+```
+поштурмим: хочу сделать бота, который ...
+```
+
+## Установка Идеолога и Концептолога
+
+**Claude Code**
+```bash
+/plugin marketplace add PleshkoffAndrej/neyrohacker-skills
+/plugin install ideolog@neyrohacker
+/plugin install konceptolog@neyrohacker
+```
+
+**Codex**
+```bash
+codex plugin marketplace add PleshkoffAndrej/neyrohacker-skills
+codex plugin add ideolog@neyrohacker
+codex plugin add konceptolog@neyrohacker
+```
+
+**Другие агенты**
+```bash
+npx skills add https://github.com/PleshkoffAndrej/neyrohacker-skills --skill ideolog
+npx skills add https://github.com/PleshkoffAndrej/neyrohacker-skills --skill konceptolog
+```
+
+**Вручную:** папки `plugins/ideolog/skills/ideolog` и `plugins/konceptolog/skills/konceptolog` — в `~/.claude/skills/` (Claude Code) или `~/.agents/skills/` (Codex).
+
 ## Ещё
 
 - Все промпты: https://neyrohacker.com/prompty/
